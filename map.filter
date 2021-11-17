@@ -98,7 +98,7 @@ ItemDisplay[GOLD>4999]: %NAME%
 //+-----------------------------------------------------------------------------------------------+
 //¦                     ????? [Optional] Rules for Ignoring Misc Items ?????                      ¦
 //+-----------------------------------------------------------------------------------------------+
-//ItemDisplay[key]: //Hide keys. You can still buy them.
+ItemDisplay[key]: //Hide keys. You can still buy them.
 ItemDisplay[GEMLEVEL=1]: //Ignore Chipped Gems
 ItemDisplay[GEMLEVEL=2]: //Ignore Flawed Gems
 ItemDisplay[GEMLEVEL=3]: //Ignore Regular Gems
@@ -220,11 +220,12 @@ ItemDisplay[skz]: %GRAY%||||%GOLD%Perfect%GRAY%||||%WHITE%
 //-------------------------------------------------------------------------------------------------
 // Drop Notifications
 //-------------------------------------------------------------------------------------------------
-ItemDisplay[GEMLEVEL>3]: %NAME%%MAP%%NOTIFY-ITEM%
-ItemDisplay[CLVL<31 GEMLEVEL>2]: %NAME%%MAP%%NOTIFY-ITEM%
-ItemDisplay[CLVL<25 GEMLEVEL>1]: %NAME%%MAP%%NOTIFY-ITEM%
-ItemDisplay[CLVL<15 GEMLEVEL>0]: %NAME%%MAP%%NOTIFY-ITEM%
-ItemDisplay[GEMLEVEL>0]: %NAME%
+ItemDisplay[skl]: %NAME%%MAP%%NOTIFY-ITEM%
+// ItemDisplay[GEMLEVEL>3]: %NAME%%MAP%%NOTIFY-ITEM%
+// ItemDisplay[CLVL<31 GEMLEVEL>2]: %NAME%%MAP%%NOTIFY-ITEM%
+// ItemDisplay[CLVL<25 GEMLEVEL>1]: %NAME%%MAP%%NOTIFY-ITEM%
+// ItemDisplay[CLVL<15 GEMLEVEL>0]: %NAME%%MAP%%NOTIFY-ITEM%
+// ItemDisplay[GEMLEVEL>0]: %NAME%
 //+-----------------------------------------------------------------------------------------------+
 //¦                                       ????? Runes ?????                                       ¦
 //+-----------------------------------------------------------------------------------------------+
@@ -1209,7 +1210,7 @@ ItemDisplay[jew UNI ID STAT59>0]: %NAME%%WHITE%[%GREEN%Poison%WHITE%]
 //ItemDisplay[ALVL>34 jew MAG !ID]: %NAME%%WHITE%%MAP%%NOTIFY-ITEM% //Unidentified magic jewels capable of rolling All Resistances +15%.
 //ItemDisplay[ALVL>38 jew MAG !ID]: %NAME%%WHITE%%MAP%%NOTIFY-ITEM% //Unidentified magic jewels capable of rolling IAS +15%.
 //ItemDisplay[ALVL>57 jew MAG !ID]: %NAME%%WHITE%%MAP%%NOTIFY-ITEM% //Unidentified magic jewels capable of rolling Max Damage +30.
-ItemDisplay[ALVL>65 jew MAG !ID]: %NAME%%WHITE%%MAP%%NOTIFY-ITEM% //Unidentified magic jewels capable of rolling ED +40%.
+//ItemDisplay[ALVL>65 jew MAG !ID]: %NAME%%WHITE%%MAP%%NOTIFY-ITEM% //Unidentified magic jewels capable of rolling ED +40%.
 //-------------------------------------------------------------------------------------------------
 // Display all jewels except unidentified rare and unique jewels.
 //-------------------------------------------------------------------------------------------------
@@ -1228,8 +1229,8 @@ ItemDisplay[jew (MAG OR ((RARE OR UNI) ID))]: %NAME%%WHITE%
 ItemDisplay[rin RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare rings.
 ItemDisplay[amu RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare amulets.
 ItemDisplay[jew RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare jewels.
-ItemDisplay[aq2 RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare arrows.
-ItemDisplay[cq2 RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare bolts.
+//ItemDisplay[aq2 RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare arrows.
+//ItemDisplay[cq2 RARE !ID]: %NAME%%WHITE%%MAP%%NOTIFY-YELLOW% //Notification for all rare bolts.
 //-------------------------------------------------------------------------------------------------
 // Notification for all rare circlets and amulets that can have a +2 class skills roll.
 //-------------------------------------------------------------------------------------------------
