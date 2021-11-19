@@ -438,18 +438,18 @@ ItemDisplay[WP2 !leg (NMAG OR ((MAG OR RARE) !ID))]: //Ignore All Mace Type Weap
 //-------------------------------------------------------------------------------------------------
 // All Swords
 //-------------------------------------------------------------------------------------------------
-ItemDisplay[WP3 (NMAG OR ((MAG OR RARE) !ID))]: //Ignore All Swords
+//ItemDisplay[WP3 (NMAG OR ((MAG OR RARE) !ID))]: //Ignore All Swords
 //-------------------------------------------------------------------------------------------------
 // One-Handed Swords
 //-------------------------------------------------------------------------------------------------
-//ItemDisplay[(ssd OR 9ss OR 7ss) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Short Sword, Gladius, and Falcata
-//ItemDisplay[(scm OR 9sm OR 7sm) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Scimitar, Cutlass, and Ataghan
-//ItemDisplay[(sbr OR 9sb OR 7sb) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Saber, Shamshir, and Elegant Blade
-//ItemDisplay[(flc OR 9fc OR 7fc) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Falchion, Tulwar, and Hydra Edge
+ItemDisplay[(ssd OR 9ss OR 7ss) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Short Sword, Gladius, and Falcata
+ItemDisplay[(scm OR 9sm OR 7sm) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Scimitar, Cutlass, and Ataghan
+ItemDisplay[(sbr OR 9sb OR 7sb) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Saber, Shamshir, and Elegant Blade
+ItemDisplay[(flc OR 9fc OR 7fc) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Falchion, Tulwar, and Hydra Edge
 //ItemDisplay[(crs OR 9cr OR 7cr) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Crystal Sword, Dimensional Blade, and Phase Blade
-//ItemDisplay[(bsd OR 9bs OR 7bs) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Broad Sword, Battle Sword, and Conquest Sword
-//ItemDisplay[(lsd OR 9ls OR 7ls) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Long Sword, Rune Sword, and Cryptic Sword
-//ItemDisplay[(wsd OR 9wd OR 7wd) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore War Sword, Ancient Sword, and Mythical Sword
+ItemDisplay[(bsd OR 9bs OR 7bs) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Broad Sword, Battle Sword, and Conquest Sword
+ItemDisplay[(lsd OR 9ls OR 7ls) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore Long Sword, Rune Sword, and Cryptic Sword
+ItemDisplay[(wsd OR 9wd OR 7wd) (NMAG OR ((MAG OR RARE) !ID))]: //Ignore War Sword, Ancient Sword, and Mythical Sword
 //-------------------------------------------------------------------------------------------------
 // Two-Handed Swords
 //-------------------------------------------------------------------------------------------------
